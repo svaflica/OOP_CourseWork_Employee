@@ -1,0 +1,10 @@
+﻿  CourseWork.cpp
+c:\users\наталья\desktop\oop_coursework\coursework\coursework\dictionarystorage.h(19): warning C4091: 'static ': ignored on left of 'DictionaryStorage' when no variable is declared
+  DictionaryStorage.cpp
+c:\users\наталья\desktop\oop_coursework\coursework\coursework\dictionarystorage.h(19): warning C4091: 'static ': ignored on left of 'DictionaryStorage' when no variable is declared
+  Employee.cpp
+c:\users\наталья\desktop\oop_coursework\coursework\coursework\dictionarystorage.h(19): warning C4091: 'static ': ignored on left of 'DictionaryStorage' when no variable is declared
+c:\users\наталья\desktop\oop_coursework\coursework\coursework\employee.cpp(50): warning C4244: 'argument': conversion from 'const UnsignedShortInt' to 'unsigned char', possible loss of data
+  Generating Code...
+DictionaryStorage.obj : error LNK2001: unresolved external symbol "private: static class Dictionary * DictionaryStorage::dictionaryOfProfessions_" (?dictionaryOfProfessions_@DictionaryStorage@@0PAVDictionary@@A)
+C:\Users\наталья\Desktop\OOP_CourseWork\CourseWork\Debug\CourseWork.exe : fatal error LNK1120: 1 unresolved externals

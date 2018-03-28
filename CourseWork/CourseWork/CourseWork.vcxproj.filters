@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes">
+      <UniqueIdentifier>{bbf0841b-d2dc-4d3c-9835-75156f3146dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Classes">
+      <UniqueIdentifier>{4a52fb12-40e9-40b4-b760-fe2a4a87f5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Classes\Exception">
+      <UniqueIdentifier>{fefbf941-86a3-49c2-8114-5c687135217f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Classes\Exception\ExceptionString">
+      <UniqueIdentifier>{553fe517-6c4c-4ef3-b462-942b99d20008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes\Exception">
+      <UniqueIdentifier>{f36d32c8-ac8d-40fc-b3b9-2c4d2f45d85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes\Exception\ExceptionString">
+      <UniqueIdentifier>{dc2a7d29-0c83-47f6-abb5-a52e798f90c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes\Exception\ExceptionEmployee">
+      <UniqueIdentifier>{3a12a28b-2ce0-453e-bed1-f3b692c75737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes\Exception\ExceptionDate">
+      <UniqueIdentifier>{764f9300-f399-4620-860c-30d3f1f6b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Classes\Exception\ExceptionDate">
+      <UniqueIdentifier>{c6267d63-cb74-43a3-b684-d505f3fa35bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Classes\Exception\ExceptionEmployee">
+      <UniqueIdentifier>{17dbc2cd-a34b-45aa-aba8-336f88ebc30f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionLength.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionString</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionMemory.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionString</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionOutOfRange.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionString</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionReferToNullptr.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionString</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionLastNameAndInitials.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionEmployee</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionWrongParameter.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionEmployee</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionYear.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionEmployee</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionTitleOfPosition.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionEmployee</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Файлы заголовков\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Файлы заголовков\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionWrongInput.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionEmployee</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Файлы заголовков\Classes\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Файлы заголовков\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Файлы заголовков\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionInvalidDay.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionDate</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionInvalidMonth.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionDate</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionInvalidDateForm.h">
+      <Filter>Файлы заголовков\Classes\Exception\ExceptionDate</Filter>
+    </ClInclude>
+    <ClInclude Include="DictionaryStorage.h">
+      <Filter>Файлы заголовков\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseWork.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Исходные файлы\Classes\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionLength.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionString</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionMemory.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionString</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionOutOfRange.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionString</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionReferToNullptr.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionString</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionLastNameAndInitials.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionEmployee</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionWrongParameter.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionEmployee</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionYear.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionEmployee</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionTitleOfPosition.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionEmployee</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionWrongInput.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionEmployee</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionInvalidDay.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionDate</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionInvalidMonth.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionDate</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionInvalidDateForm.cpp">
+      <Filter>Исходные файлы\Classes\Exception\ExceptionDate</Filter>
+    </ClCompile>
+    <ClCompile Include="DictionaryStorage.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
